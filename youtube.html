@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="style/video.css" />
+    <link rel="stylesheet" href="style/general.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/sidebar.css" />
+
+    <link rel="icon" href="assets/icons/youtube.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img
+          class="hambuger-icon"
+          src="assets/icons/hamburger-menu.svg"
+          alt=""
+        />
+        <img class="youtube-icon" src="assets/icons/youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input
+          class="search-btn"
+          type="text"
+          name=""
+          id=""
+          placeholder="Search"
+        />
+
+        <button class="search-icon-btn">
+          <img
+            class="search-icon"
+            src="assets/icons/search.svg"
+            alt="search-icon"
+          />
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-btn">
+          <img
+            class="voice-icon"
+            src="assets/icons/voice-search-icon.svg"
+            alt=""
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="tooltip-container">
+          <img
+            class="upload-icon"
+            src="assets/icons/upload.svg"
+            alt="upload-icon"
+          />
+          <div class="tooltip-create">Create</div>
+        </div>
+
+        <div class="tooltip-container">
+          <img
+            class="youtube-apps-icon"
+            src="assets/icons/youtube-apps.svg"
+            alt="upload-icon"
+          />
+          <div class="tooltip-apps">Youtube apps</div>
+        </div>
+
+        <div class="tooltip-container">
+          <div class="notif-div">
+            <img
+              class="notification-icon"
+              src="assets/icons/notifications.svg"
+              alt="upload-icon"
+            />
+            <div class="notif-number">3</div>
+            <div class="tooltip-notif">Notifications</div>
+          </div>
+        </div>
+
+        <img class="current-user-dp" src="assets/channels/me.jpg" alt="" />
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="assets/icons/home.svg" alt="home" />
+        <div class="label">Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/explore.svg" alt="explore" />
+        <div class="label">Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/subscriptions.svg" alt="subscription" />
+        <div class="label">Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/originals.svg" alt="originals" />
+        <div class="label">Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/youtube-music.svg" alt="youtube music" />
+        <div class="label">Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="assets/icons/library.svg" alt="library" />
+        <div class="label">Library</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/11.jpg" alt="" />
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/3.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Falling in Love Against All Odds: Operation True Love Story
+                Unpacked!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">19M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/suae.jpg" alt="" />
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/1.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Operation: True Love - Can Love Be Engineered?</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">3.4M views &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/AAA.jpg" alt="" />
+          <div class="video-time">10:01</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/2.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                The Twist-Filled Love Story of Operation True Love You Can’t
+                Miss!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">9M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/9.jpg" alt="" />
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/4.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/"
+                >From Strangers to Soulmates: The Epic Tale of Operation True
+                Love!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">1.2M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/12.jpg" alt="" />
+          <div class="video-time">15:03</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/5.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                The Rollercoaster Romance of Operation True Love You Won’t
+                Forget!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">1.5M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/loveteam1.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/6.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                A Love Story Like No Other: The Magic of Operation True Love!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">25.3K views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/dowha-suea.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/7.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Operation True Love: Where Love and Fate Collide!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">100K views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/hihi.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/8.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Love, Lies, and Secrets: Operation True Love Revealed!
+              </a>
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">6M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/Dowha.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/9.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Operation True Love: A Heartfelt Journey of Love and Destiny!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">1M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/cute.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/10.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Discover the Hidden Secrets of Operation True Love: A Journey of
+                Heartfelt Emotion!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">3M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/waa.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/11.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                The Untold Story of Operation True Love: A Tale of Courage and
+                Compassion!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">8.3M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="channel-picture">
+          <img class="thumbnail" src="assets/images/trio.jpg" alt="" />
+          <div class="video-time">22:09</div>
+        </div>
+        <div class="thumbnail-row">
+          <div class="creator-picture-div">
+            <img
+              class="video-creator"
+              src="assets/creator/12.jpg"
+              alt="creator-1"
+            />
+          </div>
+          <div class="video-desc-div">
+            <p class="video-title">
+              <a href="https://www.youtube.com/">
+                Discover the Hidden Secrets of Operation True Love: A Journey of
+                Heartfelt Emotion!</a
+              >
+            </p>
+            <p class="creator">It's Leng</p>
+            <p class="video-details">1M views &#183; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

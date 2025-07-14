@@ -1,0 +1,3 @@
+# It means all files and folders will upload on github except node modules
+
+node_modules/
